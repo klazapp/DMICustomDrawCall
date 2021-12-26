@@ -40,7 +40,7 @@ By combining the advantages of both of these systems, this tool removes all limi
 ## Showcase
 _____________________________________________________
 
-![](https://github.com/klazapp/DMICustomDrawCall-Jobified-/tree/main/Assets/GifShowCase/Showcase-1-Bounce.gif)
+![](https://github.com/klazapp/DMICustomDrawCall-Jobified-/blob/main/Assets/GifShowCase/Showcase-1-Bounce.gif)
 
 
 This gif shows that the the meshes are being culled as the number of vertices increase and decrease based on the number of meshes on screen.
