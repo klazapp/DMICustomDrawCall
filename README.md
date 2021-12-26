@@ -4,6 +4,7 @@
 DMICustomDrawCall is a open source tool for using DrawMeshInstanced with a custom culling method. It also comes with a fully jobified and burst compatible system to improve performances.
 
 
+<br />
 
 ## Prerequisites
 
@@ -12,6 +13,7 @@ DMICustomDrawCall is a open source tool for using DrawMeshInstanced with a custo
 
 Above packages are required for the job system to work but the base script can be modified to work without a job system.
 
+<br />
 
 ## Documentation
 
@@ -33,7 +35,7 @@ By combining the advantages of both of these systems, this tool removes all limi
 
 
 
-
+<br />
 
 ## Showcase
 
@@ -43,6 +45,7 @@ By combining the advantages of both of these systems, this tool removes all limi
 
 This gif shows that the the meshes are being culled as the number of vertices increase and decrease based on the number of meshes on screen.
 
+<br />
 
 
 ## TODO
