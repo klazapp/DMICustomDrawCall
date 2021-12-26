@@ -1,12 +1,11 @@
 # DESCRIPTION
-_____________________________________________________
+
 
 DMICustomDrawCall is a open source tool for using DrawMeshInstanced with a custom culling method. It also comes with a fully jobified and burst compatible system to improve performances.
 
 
 
 ## Prerequisites
-_____________________________________________________
 
 - Burst 1.4.11
 - Unity mathematics 1.2.5
@@ -15,7 +14,6 @@ Above packages are required for the job system to work but the base script can b
 
 
 ## Documentation
-_____________________________________________________
 
 .                     | DrawMeshInstanced  | BatchRendererGroup             | DMICustomDrawCall
  -------------        | -------------      | -------------                  | -------------
@@ -38,7 +36,7 @@ By combining the advantages of both of these systems, this tool removes all limi
 
 
 ## Showcase
-_____________________________________________________
+
 
 ![](https://github.com/klazapp/DMICustomDrawCall-Jobified-/blob/main/Assets/GifShowCase/Showcase-1-Bounce.gif)
 
@@ -48,7 +46,7 @@ This gif shows that the the meshes are being culled as the number of vertices in
 
 
 ## TODO
-_____________________________________________________
+
 
 - Compare jobified and non jobified system to determine performance improvements
 - Extend system to DrawMeshInstancedIndirect
