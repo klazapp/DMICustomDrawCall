@@ -238,7 +238,9 @@ public class DMICustomCulling: MonoBehaviour
         CubeCols = new Vector4[TotalCount];
 
         for (var i = 0; i < TotalCount; i++)
+        { 
             CubeCols[i] = startCol;
+        }
 
         
         matPropsBlock = new MaterialPropertyBlock();
