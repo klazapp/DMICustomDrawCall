@@ -15,6 +15,14 @@ Above packages are required for the job system to work but the base script can b
 
 <br />
 
+
+## How to
+1) Open newScene from the Scenes folder
+2) Enter play mode
+3) Click "Activate Particles" to generate particles
+
+<br />
+
 ## Documentation
 
 .                     | DrawMeshInstanced  | BatchRendererGroup             | DMICustomDrawCall
