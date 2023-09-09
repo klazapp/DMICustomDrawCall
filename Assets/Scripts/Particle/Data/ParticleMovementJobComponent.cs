@@ -2,6 +2,7 @@ using System;
 using Unity.Collections;
 using Unity.Mathematics;
 
+//Variables to be used in movement job system
 [Serializable]
 public class ParticleMovementJobComponent
 {

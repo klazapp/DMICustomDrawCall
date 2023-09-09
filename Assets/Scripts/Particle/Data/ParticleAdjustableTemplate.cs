@@ -2,6 +2,7 @@ using System;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
+//Template for adjustable variables of each particles
 [Serializable]
 [CreateAssetMenu(fileName = "Particle Adjustable Template", menuName = "Templates/Particle/Adjustable", order = 1)]
 public class ParticleAdjustableTemplate : ScriptableObject

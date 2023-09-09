@@ -3,6 +3,7 @@ using Unity.Collections;
 using Unity.Mathematics;
 using UnityEngine;
 
+//Variables to be used in culling job system
 [Serializable]
 public class ParticleCullingJobComponent
 {

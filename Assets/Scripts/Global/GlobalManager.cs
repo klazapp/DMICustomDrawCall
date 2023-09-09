@@ -4,7 +4,6 @@ public class GlobalManager : TMonoSingleton<GlobalManager>
 {
     public static float smoothDeltaTime;
     public static float deltaTime;
-    public static float playerDeltaTime = 1f;
     public static float fixedDeltaTime;
 
     #region Shader Id
