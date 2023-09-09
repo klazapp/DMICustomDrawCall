@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82c13f942725543018fe9f7a8913e542, type: 3}
+  m_Name: Particle Render Template Type 0
+  m_EditorClassIdentifier: 
+  renderMat: {fileID: 2100000, guid: 1a7381b4ef0944dd3baed30b46dcacb1, type: 2}
+  renderMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  startCol: {r: 0.5626073, g: 0, b: 1, a: 1}
+  endCol: {r: 1, g: 0.93970996, b: 0.17647058, a: 1}

@@ -1,4 +1,4 @@
-Shader "Custom/DMIMatPropsBlock"
+Shader "Custom/CustomParticles"
 {    
     // The _BaseColor variable is visible in the Material's Inspector, as a field 
     // called Base Color. You can use it to select a custom color. This variable
@@ -45,7 +45,6 @@ Shader "Custom/DMIMatPropsBlock"
 
             float4 _Colors[1023];   // Max instanced batch size.
 
-
             Varyings vert(Attributes IN, uint instanceID: SV_InstanceID) 
             {
                 Varyings OUT;
@@ -57,7 +56,6 @@ Shader "Custom/DMIMatPropsBlock"
                 OUT.positionHCS = TransformObjectToHClip(IN.positionOS.xyz);
                 return OUT;
             }
-
         
             half4 frag(Attributes IN, uint instanceID: SV_InstanceID) : SV_Target
             {

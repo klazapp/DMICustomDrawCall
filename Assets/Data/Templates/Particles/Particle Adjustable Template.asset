@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461b74697b6634275977718ef90c119e, type: 3}
+  m_Name: Particle Adjustable Template
+  m_EditorClassIdentifier: 
+  moveSpeedMin: 1
+  moveSpeedMax: 2
+  colorsSpeedMin: 0.49
+  colorsSpeedMax: 2.27
+  moveXDirMin: -6
+  moveXDirMax: 6
+  moveZDirMin: -6
+  moveZDirMax: 6
+  moveYDir: 14.78
+  bounceYes: 1
